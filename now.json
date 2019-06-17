@@ -1,8 +1,6 @@
 {
     "builds": [
-      { "src": "index.html", "use": "@now" },
-      { "src": "*.css", "use": "@now/css" },
-      { "src": "*.js", "use": "@now/js" }
+      { "src": "index.html", "use": "@now/static" }
  
     ]
   }
